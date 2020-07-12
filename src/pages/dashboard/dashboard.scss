@@ -1,0 +1,55 @@
+.card {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color: linen;
+}
+
+.header-container {
+  background-color: lightsalmon;
+  padding: 0.625em;
+  padding-left: 2em;
+}
+
+.btn-more {
+  background-color: lightsalmon;
+  color: white;
+  padding: 8px 16px;
+  border: 1px solid white;
+  border-radius: 32px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  &:hover {
+    background-color: lightslategray;
+  }
+  &:focus {
+    outline: none;
+  }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 824px) and (orientation: portrait) {
+    width: 20em;
+    height: 3em;
+  }
+}
+
+.btn-container {
+  text-align: center;
+  padding: 0.625em;
+}
+
+ul li {
+  padding: 8px 16px;
+  border-bottom: 1px solid #ddd;
+  span {
+    margin: 4px;
+  }
+}
+ul li:last-child {
+  border-bottom: none;
+}
